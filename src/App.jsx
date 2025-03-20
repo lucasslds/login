@@ -1,9 +1,15 @@
-import { useState } from 'react'
+
+import { Navigate, useNavigate } from 'react-router-dom'
 import './App.css'
 import Imagem from './assets/image/icon-canalhass.png'
 
 function App() {
-  const [click, setClick] = useState()
+  const navigate = useNavigate()
+
+
+  function onSeeDatailsClick() {
+    navigate(`/Cadastro`)
+  }
 
   return (
     <>
@@ -18,7 +24,7 @@ function App() {
         </div>      
         <div className='buttons'>
           <button>Entrar</button>
-          <button>Cadastrar</button>
+          <button onClick={onSeeDatailsClick}>Cadastrar</button>
         </div>
         <footer>
           <div className='footer'>
