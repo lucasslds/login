@@ -1,0 +1,170 @@
+.cadastro-usuario{
+    font-family: "Roboto", sans-serif;
+    color: #A9B2C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin-bottom: 35px;
+  }
+  
+  img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 612px;
+    width: 614px;
+    background: linear-gradient(135deg, #000000, #3533cd);
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .nome-cadastro input{
+    background-color: #2e2cb1;
+    border: none;
+    appearance: none;
+    width: 453px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .sobrenome-cadastro input{
+    background-color: #2e2cb1;
+    border: none;
+    appearance: none;
+    width: 453px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .telefone-cadastro input{
+    background-color: #2e2cb1;
+    border: none;
+    appearance: none;
+    width: 453px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .senha-cadastro input{
+    background-color: #2e2cb1;
+    border: none;
+    appearance: none;
+    width: 453px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .confirmarsenha-cadastro input{
+    background-color: #2e2cb1;
+    border: none;
+    appearance: none;
+    width: 453px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .email-cadastro input{
+    background-color: #2e2cb1;
+    border: none;
+    appearance: none;
+    width: 453px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  
+  .nome-cadastro input::placeholder {
+    color: #A9B2C3; 
+    border: none; /* Remove a borda padrão */
+    padding-left: 10px; /* Ajuste este valor para centralizar o placeholder */
+    text-align: center; 
+  }
+
+  .sobrenome-cadastro input::placeholder {
+    color: #A9B2C3; 
+    border: none; /* Remove a borda padrão */
+    padding-left: 10px; /* Ajuste este valor para centralizar o placeholder */
+    text-align: center; 
+  }
+
+  .telefone-cadastro input::placeholder {
+    color: #A9B2C3; 
+    border: none; /* Remove a borda padrão */
+    padding-left: 10px; /* Ajuste este valor para centralizar o placeholder */
+    text-align: center; 
+  }
+
+  .senha-cadastro input::placeholder {
+    color: #A9B2C3; 
+    border: none; /* Remove a borda padrão */
+    padding-left: 10px; /* Ajuste este valor para centralizar o placeholder */
+    text-align: center; 
+  }
+  
+  .confirmarsenha-cadastro input::placeholder {
+    color: #A9B2C3; 
+    border: none; /* Remove a borda padrão */
+    padding-left: 10px; /* Ajuste este valor para centralizar o placeholder */
+    text-align: center; 
+  }
+
+  .email-cadastro input::placeholder {
+    color: #A9B2C3; 
+    border: none; /* Remove a borda padrão */
+    padding-left: 10px; /* Ajuste este valor para centralizar o placeholder */
+    text-align: center; 
+  }
+  
+  .button-cadastro button{
+    background-color: black;
+    color: #A9B2C3;
+    width: 223px;
+    height: 51px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-cadastro button:hover{
+    background-color: #A9B2C3;
+    color: black;
+  }
+  
+  .footer p{
+    padding-top: 50px;
+    color: #A9B2C3;
+    font-size: 18px;
+  }
+  
